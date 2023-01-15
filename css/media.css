@@ -1,0 +1,118 @@
+@media  (min-width: 320px) and (max-width: 960px){
+
+    :root {
+        --color-1: #3E9CDC;
+        --color-2: #000000;
+        --color-3: #FFFFFF;
+      }
+
+    .header-area{
+        background-color: #272733;
+    }
+    .header-title{
+        margin-left: -200px;
+    }
+
+    .list-menu{
+        margin-left: -315px;
+        margin-top: 70px;
+    }
+    
+    .back-img{
+        display: none;
+    }
+    .title-text{
+        margin-top: 390px;
+        margin-left: -174px;
+    }
+    .page-title{
+        font-size: 30px;
+        background: linear-gradient(219deg, 
+        var(--color-1) 25%, 
+        var(--color-3) 25%, var(--color-3)  70%,
+        var(--color-1) 70%);
+        /* обрезаем фон по контуру букв */
+        background-clip: text;
+        -webkit-background-clip: text;
+
+        /* делаем заголовок прозрачным, чтобы был виден цветной фон */
+        color: transparent;
+    }
+    .page-text-1{
+        color: #FFFFFF;
+        margin-top: 45px;
+    }
+    .page-text{
+        color: #FFFFFF;
+        text-align: left;
+    }
+    .button-page{
+        margin-left: 100px;
+    }
+
+    .media-text{
+        margin-top: 430px;
+        margin-left: 105px;
+    }
+
+    .circles{
+        display: none;
+    }
+    .input-area{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 555px;
+        margin-left: -789px;
+    }
+
+    .input-area-email{
+        margin-top: 10px;
+    }
+    .input-area-name{
+        margin-left: -50px;
+        margin-top: 5px;
+    }
+
+    .file-area{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .slider-sed{
+        margin-left: -853px;
+    }
+
+    .slider{
+        margin-left: -839px;
+    }
+
+    .slidecontainer{
+        width: 300px;
+    }
+
+    .button-file{
+        width: 260px;
+        margin-left: -839px;
+    }
+    .button-send-form{
+        width: 270px;
+        margin-left: -767px;
+    }
+
+    .footer-line{
+        margin-top: 620px;
+        margin-left: -18px;
+        width: auto;
+    }
+
+    .footter-text{
+        display: none;
+    }
+
+    .vector-img{
+        display: none;
+    }
+
+}
